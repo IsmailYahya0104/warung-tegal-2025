@@ -14,8 +14,8 @@ class CustomerSeeder extends Seeder
     public function run(): void
     {
         Customer::insert([
-            ['name' => 'Budi Santoso', 'phone' => '081234567890'],
-            ['name' => 'Siti Aminah', 'phone' => '082345678901'],
+            ['name' => 'Yohanes Guido', 'phone' => '081234567890'],
+            ['name' => 'Dilan Fajar', 'phone' => '082345678901'],
         ]);
     }
 }
